@@ -1,3 +1,7 @@
+*{
+    font-size: 20px;
+}
+
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -8,14 +12,21 @@ a{
     font-weight: bold;
 }
 
+main a{
+    color: #FF0000 !important;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 header, footer{
     background-color: #00293C;
 }
 
-header h1{
+h1{
+    font-family: 'Hi Melody', cursive;
     color: #F1F3CE;
     font-style: italic;
+    font-size: 3em !important;
 }
 
 header nav, footer section{
@@ -29,10 +40,33 @@ header nav a, footer section a{
     font-weight: bold;
 }
 
+h2, nav li{
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+}
+
 h2, h3{
     color: #1E656D;
 }
 
 footer{
     color: #F1F3CE;
+}
+
+footer p{
+    font-size: .6em;
+}
+
+footer a, footer div a{
+    font-size: 1em;
+}
+
+.projectdesc{
+    text-align: center;
+    font-size: .75em;
+}
+
+h4{
+    font-size: .8em;
 }
