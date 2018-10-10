@@ -15,7 +15,7 @@
 <body>
     <header class="page-header">
         <h1>Jesse Op de Beeck</h1>
-        <img src="img/jesse.jpg" alt="Foto Jesse">
+        <img src="media/img/jesse.jpg" alt="Foto Jesse">
         <nav>
             <ul>
                 <li>
@@ -62,7 +62,7 @@
             <ol class="scholen-lijst">
                 <li>
                     <article>
-                        <img src="img/sgc.jpg" alt="Logo Sint-Gummaruscollege">
+                        <img src="media/img/sgc-logo.jpg" alt="Logo Sint-Gummaruscollege">
                         <strong>2006 - 2013</strong>
                         <p>Sint-Gummaruscollege Lier</p>
                         <p>Diploma Handel & Bedrijfsbeheer</p>
@@ -70,7 +70,7 @@
                 </li>
                 <li>
                     <article>
-                        <img src="img/kdg.png" alt="Logo KdG">
+                        <img src="media/img/kdg-logo.png" alt="Logo KdG">
                         <strong>2013 - 2018</strong>
                         <p>Karel de Grote Hogeschool Hoboken</p>
                         <p>Multimedia en Communicatietechnologie</p>
@@ -78,7 +78,7 @@
                 </li>
                 <li>
                     <article>
-                        <img src="img/scheppers.jpg" alt="Logo Scheppers">
+                        <img src="media/img/scheppers-logo.png" alt="Logo Scheppers">
                         <strong>2018 - nu</strong>
                         <p>Scheppersinstituut Antwerpen</p>
                         <p>Webontwikkeling en Netwerkbeheer</p>
@@ -94,7 +94,10 @@
         <section class="studentenwerk">
             <h2 id="Studentenwerk">Studentenwerk</h2>
             <article>
-                <img src="img/sdworx.jpg" alt="SDWorx">
+                <figure>
+                    <img src="media/img/sdworx.jpg" alt="SDWorx">
+                    <figcaption>SDWorx, Brouwersvliet 5, Antwerpen</figcaption>
+                </figure>
                 <b>2017 en 2018</b>
                 <i>SDWorx - Student Facility & Student Corporate HR</i>
                 <p>In 2017 werkte ik twee weken met de <i>Facility</i> verantwoordelijke bij <strong>SDWorx</strong>.
@@ -105,7 +108,10 @@
                     moest ik in het archief dossiers inscannen, kasten ordenen en dergelijke administratieve klusjes.</p>
             </article>
             <article>
-                <img src="img/pollet.jpg" alt="Bakkerij Pollet">
+                <figure>
+                    <img src="media/img/pollet.jpg" alt="Bakkerij Pollet">
+                    <figcaption>Bakkerij Pollet, Lieve-Vrouwestraat 30, Ranst</figcaption>
+                </figure>
                 <b>2016 - 2018</b>
                 <i>Bakkerij Pollet - Bakkershulp</i>
                 <p>Vanaf februari 2016 heb ik ook op regelmatige basis gewerkt bij Bakkerij Pollet in Ranst. De eerste
@@ -129,9 +135,16 @@
                     <p>Mijn smaak in series is ongeveer hetzelfde, al geniet ik hier veel meer van diepe personages en
                         achterliggende verhaallijnen in drama-series, en scherpe dialoog en originele moppen in
                         komedie-series.</p>
-                    <p>Voorbeelden: <i>Get Out, Upgrade, Snatch, Reservoir Dogs, Game of Thrones, Breaking Bad,
+                    <p>Voorbeelden: <i><b>Get Out</b>, Upgrade, Snatch, Reservoir Dogs, Game of Thrones, Breaking Bad,
                             Friends,
-                            Silicon Valley, ...</i></p>
+                            Silicon Valley, ...</i></p><br>
+                    <video controls>
+                        <source src="media/vid/getout-trailer.webm" type="video/webm">
+                        <source src="media/vid/getout-trailer.mp4" type="video/mp4">
+                        <source src="https://www.youtube.com/watch?v=xM1YpntE840">
+                        Sorry, deze video kon niet geladen worden! Probeer een andere browser, of <a href="https://www.youtube.com/watch?v=xM1YpntE840">klik
+                            hier</a> om de video op YouTube te bekijken.
+                    </video>
                 </li>
                 <li>
                     <h3>Toneel</h3>
@@ -151,10 +164,10 @@
         </section>
         <section>
             <h2 id="Creaties">Creaties</h2>
-            <ul>
+            <ul class="creaties-lijst">
                 <li>
                     <article>
-                        <img src="#" alt="[image]">
+                        <img src="media/img/komik-website.jpg" alt="screenshot website komik toneel">
                         <h3>Website Komik Toneel</h3>
                         <p class="projectdesc">De website van onze toneelgroep Komik Toneel is volledig door mij
                             gemaakt, from
@@ -164,18 +177,15 @@
                 </li>
                 <li>
                     <article>
-                        <img src="#" alt="[image]">
+                        <img src="media/img/unity-logo.png" alt="logo unity software">
                         <h3>Monkey Island</h3>
-                        <p class="projectdesc">Een kleine platformer volledig zelf gemaakt in C# over een aapje dat
-                            drie levels
-                            van een jungle moet
-                            doorkruisen en
-                            uiteindelijk een draak verslaan.</p>
+                        <p class="projectdesc">Een kleine platformer volledig zelf gemaakt in Unity en C# over een
+                            aapje dat drie levels van een jungle moet doorkruisen en uiteindelijk een draak verslaan.</p>
                     </article>
                 </li>
                 <li>
                     <article>
-                        <img src="#" alt="[image]">
+                        <img src="media/img/strategun-logo.png" alt="strategun logo">
                         <h3>Strategun</h3>
                         <p class="projectdesc">Een remake van Stratego gemaakt in pure Javascript, in een week met 3
                             collega's.</p>
@@ -183,16 +193,14 @@
                 </li>
                 <li>
                     <article>
-                        <img src="#" alt="[image]">
+                        <img src="media/img/stan-logo.png" alt="logo project studenten antwerpen">
                         <h3>St'An</h3>
                         <p class="projectdesc">Een project voor de stad Antwerpen, een website voor studenten die er
-                            zouden
-                            beginnen studeren. Ik
-                            deed hier het grootste deel van de back-end in PHP.</p>
+                            zouden beginnen studeren. Ik deed hier het grootste deel van de back-end in PHP.</p>
                     </article>
                 </li>
+                <a href="projecten/overzicht.html">Bekijk hier al mijn projecten.</a>
             </ul>
-            <a href="projecten/overzicht.html">Bekijk hier al mijn projecten.</a>
         </section>
     </main>
     <footer>
@@ -203,17 +211,17 @@
             <ul class="social-footer-list">
                 <li>
                     <a href="https://www.facebook.com/jesseodb" target="_blank">
-                        <img class="social-footer-logo" src="img/fb-logo.png" alt="facebook logo">
+                        <img class="social-footer-logo" src="media/img/fb-logo.png" alt="facebook logo">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/jesse-op-de-beeck-0b6080161/" target="_blank">
-                        <img class="social-footer-logo" src="img/linkedin-logo.png" alt="linkedin logo">
+                        <img class="social-footer-logo" src="media/img/linkedin-logo.png" alt="linkedin logo">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/channel/UC6UxH2L5_WaqqEr25ttqmfQ" target="_blank">
-                        <img class="social-footer-logo" src="img/youtube-logo.png" alt="youtube logo">
+                        <img class="social-footer-logo" src="media/img/youtube-logo.png" alt="youtube logo">
                     </a>
                 </li>
             </ul>

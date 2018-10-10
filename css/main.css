@@ -65,6 +65,10 @@ footer div a {
   font-size: 1em;
 }
 
+figcaption{
+  font-size: .7em !important;
+}
+
 .projectdesc {
   text-align: center;
   font-size: 0.75em;
@@ -99,11 +103,21 @@ h4 {
 }
 
 .scholen-lijst img{
-  height: 300px;
-  width: 80%;
+  width: 25%;
+  
 }
 
 .studentenwerk img{
-  height: 200px;
   width: 50%;
+  height: auto;
+}
+
+.creaties-lijst{
+  list-style: none;
+  text-align: center;
+}
+
+.creaties-lijst img{
+  width: 75%;
+  height: auto;
 }
