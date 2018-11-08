@@ -1,122 +1,88 @@
-html {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+/*
+ * #00293c
+ * #1e656d
+ * #f1f3ce
+*/ 
+
+html{
+  font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
+  background-color: #eaeaea;
 }
 
-a {
+a{
+  color: red;
   text-decoration: none;
-  color: #ff0000;
+}
+
+a:hover{
   font-weight: bold;
 }
 
-main a {
-  color: #ff0000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-header,
-footer {
+.page-header{
   background-color: #00293c;
-}
-
-h1 {
   color: #f1f3ce;
-  font-style: italic;
-  font-size: 3em;
+  padding: 10px 15%; /* 10px 192px */
 }
 
-header nav,
-footer section {
+.page-header > h1{
+  font-size: 2em;
+  font-style: italic;
+}
+
+.page-header > img{
+  width: 125px;
+  height: 150px;
+  border-radius: 100px;
+  position: absolute;
+  top: 5px;
+  right: 12%;
+  z-index: 99;
+}
+
+.navbar{
+  background-color: #1e656d;
+  position: sticky;
+  padding: 10px 10%; /* 10px 128px */ 
+  top: 0;
+  box-shadow: 0px 2px 5px #000000;
+}
+
+.navbar > nav > ul{
+  list-style: none;
+  display: inline-flex;
+}
+
+.navbar > nav > ul > li > a{
+  color: #f1f3ce;
+  padding: 5px 5px 5px 20px;
+  font-size: 1.1em;
+}
+
+.container{
+  width: 1280px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 10px 5%; /* 10px 64px */
+}
+
+.container > section{
+  margin-top: 80px;
+}
+
+.container > section > h2{
+  color: #00293c;
+  font-size: 1.8em;
+}
+
+.cv-box{
   background-color: #1e656d;
   color: #f1f3ce;
-  text-decoration: none;
-}
-
-header nav a,
-footer section a {
-  color: #f1f3ce;
-  font-weight: bold;
-}
-
-h2,
-nav li {
-  font-family: "Lucida Console", Monaco, monospace;
-  letter-spacing: -0.05em;
-  text-transform: uppercase;
-}
-
-h2,
-h3 {
-  color: #1e656d;
-}
-
-footer {
-  color: #f1f3ce;
-}
-
-footer p {
-  font-size: 0.6em;
-}
-
-footer a,
-footer div a {
-  font-size: 1em;
-}
-
-figcaption{
-  font-size: .7em;
-}
-
-.projectdesc {
-  text-align: center;
-  font-size: 0.75em;
-}
-
-h4 {
-  font-size: 0.8em;
-}
-
-.page-header img{
-  width: 20%;
-  border-radius: 100%;
-}
-
-.social-footer-list{
-  list-style: none;
-  display: inline;
-}
-
-.social-footer-logo{
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-}
-
-.scholen-lijst{
-  list-style: none;
-}
-
-.scholen-lijst article{
-  text-align: center;
-}
-
-.scholen-lijst img{
-  width: 25%;
-  
-}
-
-.studentenwerk img{
-  width: 50%;
-  height: auto;
-}
-
-.creaties-lijst{
-  list-style: none;
-  text-align: center;
-}
-
-.creaties-lijst img{
-  width: 75%;
-  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 1px 1px 5px black;
+  padding: 10px 10px;
 }
