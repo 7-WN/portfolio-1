@@ -10,6 +10,10 @@ html{
   background-color: #eaeaea;
 }
 
+h2{
+  color: red;
+}
+
 a{
   color: red;
   text-decoration: none;
@@ -87,15 +91,37 @@ a:hover{
 .opleidingen > ol > li{
   width: 25%; /* 192px */
   display: inline-block;
-  background-color: #eaeaea;
+  padding: 30px 10px;
+  /*background-color: #eaeaea;
   box-shadow: 2px 2px 5px #000000;
-  padding: 20px 10px;
+  border-radius: 15px;
+  border: 5px solid #00293c;*/
 }
 
 .opleidingen > ol > li > article > img{
     width: 50%;
-    height: 180px;
+    height: 150px;
     margin: auto;
+}
+
+.studentenwerk > article{
+  display: inline-flex;
+}
+
+.studentenwerk > article > figure{
+  width: 20%;
+  font-size: .8em;
+  position: static;
+}
+
+.studentenwerk > article > .side{
+  width: 70%; /* 896px */
+  padding: 10px;
+  position: relative;
+}
+
+.studentenwerk > article > figure > img{
+  max-width: 100%;
 }
 
 .cv-box{
