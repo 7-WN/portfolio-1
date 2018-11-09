@@ -75,6 +75,28 @@ a:hover{
   font-size: 1.8em;
 }
 
+.opleidingen > ol{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.opleidingen > ol > li{
+  width: 25%; /* 192px */
+  display: inline-block;
+  background-color: #eaeaea;
+  box-shadow: 2px 2px 5px #000000;
+}
+
+.opleidingen > ol > li > article > img{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+
 .cv-box{
   background-color: #1e656d;
   color: #f1f3ce;
