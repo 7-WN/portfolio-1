@@ -85,7 +85,7 @@ a:hover{
   justify-content: space-evenly;
   align-items: baseline;
   text-align: center;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .opleidingen > ol > li{
@@ -104,20 +104,30 @@ a:hover{
     margin: auto;
 }
 
+.studentenwerk{
+  display: block;
+}
+
 .studentenwerk > article{
-  display: inline-flex;
+  display: inline-block;
 }
 
 .studentenwerk > article > figure{
   width: 20%;
   font-size: .8em;
-  position: static;
+  margin-left: 0;
+  display: inline-block;
 }
 
 .studentenwerk > article > .side{
   width: 70%; /* 896px */
-  padding: 10px;
   position: relative;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.side > b, .side > i{
+  font-size: 1.2em;
 }
 
 .studentenwerk > article > figure > img{
