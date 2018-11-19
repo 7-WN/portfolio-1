@@ -14,6 +14,10 @@ h2{
   color: red;
 }
 
+h3{
+  color: #1e656d;
+}
+
 a{
   color: red;
   text-decoration: none;
@@ -50,6 +54,7 @@ a:hover{
   padding: 10px 10%; /* 10px 128px */ 
   top: 0;
   box-shadow: 0px 2px 5px #000000;
+  z-index: 10;
 }
 
 .navbar > nav > ul{
@@ -132,6 +137,11 @@ a:hover{
 
 .studentenwerk > article > figure > img{
   max-width: 100%;
+}
+
+.vrije-tijd > ul{
+  list-style: none;
+  padding: 0;
 }
 
 .cv-box{
