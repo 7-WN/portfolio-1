@@ -1,0 +1,49 @@
+body{
+    background-color: #272822;
+    font-family: Consolas;
+    color: #ffffff;
+}
+
+aside > ol > li{
+    list-style: none;
+    counter-increment: li;
+}
+
+aside > ol > li::before{
+    content: counter(li);
+    color: #82827C;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.5em;
+    margin-right: 0.5em;
+    text-align: right;
+    direction: rtl;
+}
+
+.tag{
+    color: #F9273C;
+}
+
+.an{
+    color: #9AE22B;
+}
+
+.av{
+    color: #E6DB74;
+}
+
+.t1{
+    text-indent: 2em;
+}
+
+.t2{
+    text-indent: 4em;
+}
+
+.t3{
+    text-indent: 6em;
+}
+
+.t4{
+    text-indent: 8em;
+}
