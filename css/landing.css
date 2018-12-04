@@ -4,12 +4,12 @@ body{
     color: #ffffff;
 }
 
-aside > ol > li{
+ol > li{
     list-style: none;
     counter-increment: li;
 }
 
-aside > ol > li::before{
+ol > li::before{
     content: counter(li);
     color: #82827C;
     display: inline-block;
@@ -20,7 +20,12 @@ aside > ol > li::before{
     direction: rtl;
 }
 
-.tag{
+body > div > ol > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+span{
     color: #F9273C;
 }
 
@@ -30,6 +35,10 @@ aside > ol > li::before{
 
 .av{
     color: #E6DB74;
+}
+
+.c{
+    color: grey;
 }
 
 .t1{
@@ -47,3 +56,59 @@ aside > ol > li::before{
 .t4{
     text-indent: 8em;
 }
+
+.blinking-cursor {
+    font-weight: 100;
+    font-size: 18px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: inherit;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
