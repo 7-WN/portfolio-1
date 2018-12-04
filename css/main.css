@@ -144,6 +144,22 @@ a:hover{
   padding: 0;
 }
 
+.creaties-lijst{
+  list-style: none;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.creaties-lijst > li{
+  padding-bottom: 50px;
+}
+
+.creaties-lijst > li > article > img{
+  width: 80%;
+}
+
 .cv-box{
   background-color: #1e656d;
   color: #f1f3ce;
